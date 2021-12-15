@@ -1,0 +1,131 @@
+#code, #canvas, #adjustColor, #endImg, #downImg, #art-qrcode, #qrcode {
+	display: none;
+}
+
+#canvas {
+	width: 10px;
+	height: 100px;
+}
+.mainColor {
+	background-color: rgba(100, 149, 237, 0.8);
+}
+
+div[data-art] {
+	border: 2px solid skyblue;
+	border-radius: 10px;
+}
+
+.navbar {
+	border: 0;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+	color: #ffffff;
+}
+
+.navbar-inverse .navbar-brand {
+	color: #ffffff;
+}
+
+.navbar-inverse .navbar-toggle {
+	border-color: transparent;
+}
+
+.navbar-inverse .navbar-collapse,
+.navbar-inverse .navbar-form {
+	border-color: #fff;
+}
+
+.navbar-inverse .navbar-toggle:focus,
+.navbar-inverse .navbar-toggle:hover {
+	background-color: #83aaf1;
+}
+
+.btn-primary {
+	background-color: #83aaf1;
+	border-color: #83aaf1;
+}
+
+.btn-primary:hover,
+.btn-primary:active {
+	background-color: #83aaf1;
+	border-color: #83aaf1;
+}
+
+.navbar-inverse .navbar-nav>.open>a,
+.navbar-inverse .navbar-nav>.open>a:focus,
+.navbar-inverse .navbar-nav>.open>a:hover {
+	color: #fff;
+	background-color: #83aaf1;
+}
+
+p {
+	color: #fff;
+	margin-top: 6px;
+	margin-bottom: 9px;
+}
+
+.link {
+	color: #00fa9a;
+}
+
+.link:hover {
+	text-decoration: none;
+}
+
+@media (max-width: 767px) {
+	.navbar-inverse .navbar-nav .open .dropdown-menu>li>a {
+		color: #ffffff;
+	}
+
+	.navbar-inverse .navbar-nav .open .dropdown-menu>.active>a,
+	.navbar-inverse .navbar-nav .open .dropdown-menu>.active>a:focus,
+	.navbar-inverse .navbar-nav .open .dropdown-menu>.active>a:hover {
+		color: #fff;
+		background-color: #83aaf1;
+	}
+}
+
+.afterMakeNav {
+	width: 100%;
+	display: inline-block;
+}
+
+.layui-colorpicker.layui-colorpicker-lg {
+	line-height: 22px;
+}
+
+.footer a {
+	color: #fff;
+}
+
+::-webkit-scrollbar {
+	width: 8px;
+	height: 6px;
+}
+
+::-webkit-scrollbar-thumb {
+	border-radius: 4px;
+	background-color: #cbcbcb;
+}
+
+::-webkit-scrollbar-thumb:hover {
+	background-color: #bbbbbb;
+}
+
+::-webkit-scrollbar-track-piece {
+	background: #eee;
+}
+
+.swiper-container {
+	width: 100%;
+	padding-top: 20px;
+	padding-bottom: 50px;
+}
+
+.swiper-slide {
+	background-position: center;
+	background-size: cover;
+	width: 300px;
+	height: 400px;
+}
